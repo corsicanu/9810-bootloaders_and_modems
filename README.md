@@ -27,7 +27,7 @@ All the files here are pulled from official firmwares of the devices mentioned.
 
 ## Latest releases:
 ```
-G960FXXS7DTB5
+G960FXXU8DTC5
 G960NKSU2DTAB
 G965FXXS7DTB5
 G965NKSU2DTAB
