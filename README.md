@@ -29,7 +29,7 @@ All the files here are pulled from official firmwares of the devices mentioned.
 ```
 G960FXXU8DTC5
 G960NKSU2DTAB
-G965FXXS7DTB5
+G965FXXU8DTC5
 G965NKSU2DTAB
 N960FXXS5DTB6
 N960NKSU3DSLC
