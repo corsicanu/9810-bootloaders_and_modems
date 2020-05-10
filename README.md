@@ -28,11 +28,11 @@ All the files here are pulled from official firmwares of the devices mentioned.
 ## Latest releases:
 ```
 G960FXXU8DTC5
-G960NKSU2DTAB
+G960NKSU3DTC5
 G965FXXU8DTC5
-G965NKSU2DTAB
+G965NKSU3DTC5
 N960FXXU5DTCA
-N960NKSU3DSLC
+N960NKSU3DTC4
 
 ```
 
