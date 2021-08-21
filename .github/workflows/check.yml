@@ -108,7 +108,7 @@ jobs:
         id: releases
         run: |
           target_version=${{ steps.check.outputs.latest_shortversion }}
-          bls=(cm.bin modem.bin sboot.bin up_param.bin)
+          bls=(cm.bin modem.bin sboot.bin up_param.bin keystorage.bin)
           tar xvf ${{ steps.files.outputs.bl }} 
           tar xvf ${{ steps.files.outputs.cp }}
           for i in `ls | grep lz4`; do lz4 -dm $i ; rm -rf $i; done
