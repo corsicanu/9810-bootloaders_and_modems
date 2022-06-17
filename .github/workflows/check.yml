@@ -1,8 +1,9 @@
 name: Check firmware update
 
 on:
+  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 1/7 * *"
   push:
 
 jobs:
@@ -11,6 +12,7 @@ jobs:
 
     strategy:
       fail-fast: false
+      max-parallel: 2
       matrix:
         include:
           - model: "SM-G960N"
@@ -20,11 +22,11 @@ jobs:
           - model: "SM-N960N"
             region: "KTC"
           - model: "SM-G965F"
-            region: "DBT"
+            region: "SEK"
           - model: "SM-G960F"
-            region: "DBT"
+            region: "SEK"
           - model: "SM-N960F"
-            region: "DBT"
+            region: "NEE"
 
     steps:
       - name: Checkout repo
