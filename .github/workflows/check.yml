@@ -20,9 +20,9 @@ jobs:
           - model: "SM-N960N"
             region: "KTC"
           - model: "SM-G965F"
-            region: "XXV"
+            region: "XSG"
           - model: "SM-G960F"
-            region: "XXV"
+            region: "XSG"
           - model: "SM-N960F"
             region: "DBT"
 
